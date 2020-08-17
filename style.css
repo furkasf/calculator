@@ -1,0 +1,31 @@
+.container{
+    width: 800px;
+    height: 1000px;
+    background: #f3f3f3;
+    margin: 15px auto;
+}
+.calculator{
+    width: 340px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: black;
+}
+.result{
+    height: 120px;
+    display: flex;
+}
+.history{
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.history-value{
+    font-size: 12px;
+}
+.output{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.output-value{
+    font-size: 25px;
+}
